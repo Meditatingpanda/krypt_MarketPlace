@@ -9,6 +9,7 @@
     "build:css": "postcss src/style/tailwind.css -o src/style/main.css --watch"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "ether": "^0.0.9",
     "postcss-cli": "^9.1.0",
     "react": "^17.0.2",
