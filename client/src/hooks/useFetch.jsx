@@ -4,7 +4,7 @@ const APIKEY = import.meta.env.VITE_GIPHY_API;
 const apiKey = "sk531iMrp6fe4eAVLJMWYtrRHUlnltVZ";
 const useFetch = ({ keyword }) => {
   const [gifUrl, setGifUrl] = useState("");
-
+//fixed data fetching
   const fetchGifs = async () => {
     try {
       const response = await axios.get(
